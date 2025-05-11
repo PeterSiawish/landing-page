@@ -1,0 +1,17 @@
+/* header {
+  background-color: #1f2937;
+} */
+
+#image-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #e5e7eb;
+  display: inline-block;
+  text-align: center;
+}
+
+.card-display {
+  width: 100px;
+  height: 100px;
+  background-color: #e5e7eb;
+}
