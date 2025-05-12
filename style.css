@@ -140,3 +140,59 @@ header > nav > h2 {
   align-self: flex-end;
   font-size: 24px;
 }
+
+#section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  display: flex;
+  width: 70%;
+  min-height: 10rem;
+  margin: 5rem 0;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.call-to-action * {
+  color: white;
+}
+
+.call-to-action-left {
+  flex-basis: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-left h3 {
+  padding-bottom: 5px;
+  color: #e5e7eb;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.call-to-action-left p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.call-to-action-right {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-right button {
+  border: 2px solid white;
+  border-radius: 7px;
+  background-color: #3882f6;
+  padding: 0.3em 1.5em;
+  margin-right: 5rem;
+  font-weight: 600;
+  font-size: 18px;
+}
